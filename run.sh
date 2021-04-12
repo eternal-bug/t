@@ -74,11 +74,11 @@ cat TEMP/$p_name.$s_name.out |
             for my $i (0..$num - 1){
               $a = $hash{$d}{$q}[$i];
               if ( $m < $a->[0][1] - $a->[0][0] ){
-                $m = $a->[0][1] - $a->[0][0];
-                $i = $i;
+                $m_v = $a->[0][1] - $a->[0][0];
+                $m_i = $i;
               }
             }
-            $hash{$d}{$q} = [$hash{$d}{$q}[$i]];
+            $hash{$d}{$q} = [$hash{$d}{$q}[$m_i]];
           }
           my $v = $hash{$d}{$q}[0];
           print join("\t", $q, $d, $v->[0][0], $v->[0][1], $v->[1][0], $v->[1][1]);
