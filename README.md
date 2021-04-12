@@ -14,8 +14,8 @@
 
 2. 将该项目克隆到本地
 
-   ```
-   git clone XXX
+   ```bash
+   git clone https://github.com/eternal-bug/t.git
    ```
 
 3. 运行代码执行测试
