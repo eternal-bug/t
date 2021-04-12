@@ -27,7 +27,7 @@
    # 例如：1.fa 2.fa 3.fa
    # 需要将它们合并成一个文件
    # cat 1.fa 2.fa 3.fa >database.fa
-   bash run.sh ./test/ErmC.fa database.fa
+   bash run.sh ./data/ErmC.fa ./data/database.fa
    ```
 
 4. 查看文件
