@@ -73,7 +73,7 @@ cat TEMP/$p_name.$s_name.out |
             my $m_i = "F";
             for my $i (0..$num - 1){
               $a = $hash{$d}{$q}[$i];
-              if ( $m < $a->[0][1] - $a->[0][0] ){
+              if ( $m_v < $a->[0][1] - $a->[0][0] ){
                 $m_v = $a->[0][1] - $a->[0][0];
                 $m_i = $i;
               }
